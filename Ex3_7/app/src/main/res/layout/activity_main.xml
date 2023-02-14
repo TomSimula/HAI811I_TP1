@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/mainPageTextViewLastName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/main_page_last_name"
+        app:layout_constraintBottom_toBottomOf="@+id/mainPageEditTextLastName"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/mainPageEditTextLastName" />
+
+    <EditText
+        android:id="@+id/mainPageEditTextLastName"
+        android:layout_width="375dp"
+        android:layout_height="wrap_content"
+        android:hint="Simula"
+        app:layout_constraintStart_toEndOf="@+id/mainPageTextViewLastName"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/mainPageTextViewFirstName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/main_page_first_name"
+        app:layout_constraintBottom_toBottomOf="@+id/mainPageEditTextFirstName"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/mainPageEditTextFirstName" />
+
+    <EditText
+        android:id="@+id/mainPageEditTextFirstName"
+        android:layout_width="356dp"
+        android:layout_height="wrap_content"
+        android:hint="Tom"
+        app:layout_constraintStart_toEndOf="@+id/mainPageTextViewFirstName"
+        app:layout_constraintTop_toBottomOf="@+id/mainPageEditTextLastName" />
+
+    <TextView
+        android:id="@+id/mainPageTextViewAge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/main_page_birthday"
+        app:layout_constraintBottom_toBottomOf="@+id/mainPageEditTextAge"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/mainPageEditTextAge" />
+
+    <EditText
+        android:id="@+id/mainPageEditTextAge"
+        android:layout_width="291dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/main_page_birthday_hint"
+        app:layout_constraintStart_toEndOf="@+id/mainPageTextViewAge"
+        app:layout_constraintTop_toBottomOf="@+id/mainPageEditTextFirstName" />
+
+    <TextView
+        android:id="@+id/mainPageTextViewJob"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/main_page_job"
+        app:layout_constraintBottom_toBottomOf="@+id/mainPageEditTextSkillField"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/mainPageEditTextSkillField" />
+
+    <EditText
+        android:id="@+id/mainPageEditTextSkillField"
+        android:layout_width="364dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/main_page_job_hint"
+        app:layout_constraintStart_toEndOf="@+id/mainPageTextViewJob"
+        app:layout_constraintTop_toBottomOf="@+id/mainPageEditTextAge" />
+
+    <TextView
+        android:id="@+id/mainPageTextViewPhone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/main_page_phone"
+        app:layout_constraintBottom_toBottomOf="@+id/mainPageEditTextPhone"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/mainPageEditTextPhone" />
+
+    <EditText
+        android:id="@+id/mainPageEditTextPhone"
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+        android:hint="XX XX XX XX XX"
+        app:layout_constraintStart_toEndOf="@+id/mainPageTextViewPhone"
+        app:layout_constraintTop_toBottomOf="@+id/mainPageEditTextSkillField" />
+
+    <Button
+        android:id="@+id/mainPageButtonValidate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/main_page_submit_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mainPageEditTextPhone" />
+</androidx.constraintlayout.widget.ConstraintLayout>

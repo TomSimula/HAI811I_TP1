@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Ex3_7</string>
+    <string name="main_page_phone">Phone:</string>
+    <string name="main_page_job">Job:</string>
+    <string name="main_page_birthday">Birthday:</string>
+    <string name="main_page_last_name">Last name:</string>
+    <string name="main_page_first_name">First name:</string>
+    <string name="main_page_submit_button">Submit</string>
+    <string name="main_page_job_hint">Android Developer</string>
+    <string name="main_page_birthday_hint">dd/mm/yyyy</string>
+</resources>

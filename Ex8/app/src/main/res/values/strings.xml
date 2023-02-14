@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Ex8</string>
+    <string-array name="listeHoraire">
+        <item>Montpellier\t Nîmes\t 8:00 </item>
+        <item>Montpellier\t Nîmes\t 10:00</item>
+        <item>Montpellier\t Nîmes\t 12:00</item>
+        <item>Montpellier\t Nîmes\t 8:00 </item>
+        <item>Montpellier\t Nîmes\t 10:00</item>
+        <item>Montpellier\t Nîmes\t 12:00</item>
+        <item>Montpellier\t Nîmes\t 8:00 </item>
+        <item>Montpellier\t Nîmes\t 10:00</item>
+        <item>Montpellier\t Nîmes\t 12:00</item>
+        <item>Montpellier\t Nîmes\t 8:00 </item>
+        <item>Montpellier\t Nîmes\t 10:00</item>
+        <item>Montpellier\t Nîmes\t 12:00</item>
+        <item>Montpellier\t Nîmes\t 8:00 </item>
+        <item>Montpellier\t Nîmes\t 10:00</item>
+        <item>Montpellier\t Nîmes\t 12:00</item>
+        <item>Montpellier\t Nîmes\t 8:00 </item>
+        <item>Montpellier\t Nîmes\t 10:00</item>
+        <item>Montpellier\t Nîmes\t 12:00</item>
+    </string-array>
+</resources>
